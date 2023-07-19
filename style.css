@@ -254,20 +254,15 @@ p.bold-footer {
         flex-direction: column-reverse;
         gap: 20px;
     }
+    .banner-picture img {
+        width: 100%;
+    }
 
     .gammer-img img {
         width: 100%;
     }
 
     .gammer-content {
-        text-align: center;
-    }
-
-    .play-img img {
-        width: 250px;
-    }
-
-    .play-img {
         text-align: center;
     }
 
@@ -278,9 +273,7 @@ p.bold-footer {
         padding: 20px 0;
         text-align: center;
     }
-    .play-box{
-        gap:10px;
-    }
+    
    
 
     .mini-img img {
@@ -294,8 +287,14 @@ p.bold-footer {
     .video-container {}
 
     .play-box {
-        
-        gap:20px;
+        padding: 0;
+        gap:20px 0;
+    }
+    .play-img {
+        text-align: center;
+    }
+    .play-img img {
+        width: 250px;
     }
 
 
@@ -307,13 +306,15 @@ p.bold-footer {
         flex-direction: column;
     }
 
-    .banner img {
-        width: 100%;
-    }
+    
    
     .video-box p{
         text-align: center;
     }
+    .play-box .play-title, .play-des {
+        text-align: center;
+    }
+    
 
 
 }
