@@ -34,6 +34,13 @@ nav {
     ;
 }
 
+.nav-span {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .nav-title {
     text-align: center;
     font-size: 2.5rem;
@@ -166,8 +173,19 @@ p.bold-footer {
     font-weight: 700;
 }
 
+/* video */
+
 .video-sectiopn {
     padding: 10px 100px;
+}
+
+.video-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+  
 }
 
 .video-title {
@@ -212,7 +230,7 @@ p.bold-footer {
 .play-box {
     display: flex;
     padding: 0px 100px;
-    gap:50px;
+    gap: 50px;
 }
 
 .play-img img {
@@ -254,6 +272,7 @@ p.bold-footer {
         flex-direction: column-reverse;
         gap: 20px;
     }
+
     .banner-picture img {
         width: 100%;
     }
@@ -273,8 +292,8 @@ p.bold-footer {
         padding: 20px 0;
         text-align: center;
     }
-    
-   
+
+
 
     .mini-img img {
         width: 40px;
@@ -288,11 +307,13 @@ p.bold-footer {
 
     .play-box {
         padding: 0;
-        gap:20px 0;
+        gap: 20px 0;
     }
+
     .play-img {
         text-align: center;
     }
+
     .play-img img {
         width: 300px;
     }
@@ -306,15 +327,17 @@ p.bold-footer {
         flex-direction: column;
     }
 
-    
-   
-    .video-box p{
+
+
+    .video-box p {
         text-align: center;
     }
-    .play-box .play-title, .play-des {
+
+    .play-box .play-title,
+    .play-des {
         text-align: center;
     }
-    
+
 
 
 }
@@ -326,29 +349,34 @@ p.bold-footer {
     }
 
     nav,
-    .gammer-box, .video-container{
+    .gammer-box,
+    .video-container {
         flex-direction: column;
     }
+
     .play-img img {
         width: 250px;
     }
-    
-    
+
+
 
     .banner img {
         width: 100%;
     }
+
     .gammer-img img {
         width: 100%;
     }
+
     nav,
     .banner,
     .gammer-box,
-    .video-section, .gammer-content {
+    .video-section,
+    .gammer-content {
         padding: 40px 0;
         text-align: center;
     }
-    
+
     .mini-img img {
         width: 120px;
         position: relative;
