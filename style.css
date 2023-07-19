@@ -306,8 +306,9 @@ p.bold-footer {
     .banner img {
         width: 100%;
     }
-    .video-box img{
-        width: 150px;
+   
+    .video-box p{
+        text-align: center;
     }
 
 
