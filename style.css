@@ -212,7 +212,7 @@ p.bold-footer {
 .play-box {
     display: flex;
     padding: 0px 100px;
-    gap: 150px
+    gap:50px;
 }
 
 .play-img img {
@@ -278,6 +278,9 @@ p.bold-footer {
         padding: 20px 0;
         text-align: center;
     }
+    .play-box{
+        gap:10px;
+    }
    
 
     .mini-img img {
@@ -291,7 +294,8 @@ p.bold-footer {
     .video-container {}
 
     .play-box {
-        padding: 0;
+        
+        gap:20px;
     }
 
 
