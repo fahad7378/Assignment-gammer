@@ -277,9 +277,9 @@ p.bold-footer {
    
 
     .mini-img img {
-        width: 120px;
+        width: 40px;
         position: relative;
-        top: -120px;
+        top: -80px;
         left: -60px;
 
     }
@@ -294,7 +294,7 @@ p.bold-footer {
         text-align: center;
     }
     .play-img img {
-        width: 250px;
+        width: 300px;
     }
 
 
@@ -326,11 +326,14 @@ p.bold-footer {
     }
 
     nav,
-    .gammer-box,
-    .video-container,
-    .play-box {
+    .gammer-box, .video-container{
         flex-direction: column;
     }
+    .play-img img {
+        width: 250px;
+    }
+    
+    
 
     .banner img {
         width: 100%;
@@ -345,11 +348,9 @@ p.bold-footer {
         padding: 40px 0;
         text-align: center;
     }
-    .play-img img {
-        width: 350px;
-    }
+    
     .mini-img img {
-        width: 150px;
+        width: 120px;
         position: relative;
         top: -120px;
         left: -60px;
