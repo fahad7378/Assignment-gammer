@@ -236,6 +236,9 @@ p.bold-footer {
 .play-img img {
     width: 500px;
 }
+.play-img{
+    margin-top: 100px;
+}
 
 .play-title {
     text-align: right;
@@ -258,7 +261,7 @@ p.bold-footer {
 }
 
 .mini-img img {
-    width: 150px;
+    width: 180px;
     border-radius: 8px;
     border: 10px solid #FFF;
     background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
