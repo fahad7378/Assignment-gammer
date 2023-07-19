@@ -198,6 +198,13 @@ p.bold-footer {
     width: 250px;
 }
 
+.video-box p {
+    color: #534C64;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
 
 
 .play-title {}
@@ -209,7 +216,7 @@ p.bold-footer {
 }
 
 .play-img img {
-    width: 400px;
+    width: 500px;
 }
 
 .play-title {
@@ -220,7 +227,7 @@ p.bold-footer {
 
 .play-content {
     max-width: 300px;
-    margin:  auto;
+    margin: auto;
 
 }
 
@@ -230,6 +237,16 @@ p.bold-footer {
     font-size: 1.2rem;
     font-weight: 400;
     margin-top: -20px;
+}
+
+.mini-img img {
+    width: 150px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    position: relative;
+    top: -120px;
+    left: -60px;
 }
 
 @media screen and (max-width:576px) {
@@ -246,18 +263,53 @@ p.bold-footer {
         text-align: center;
     }
 
+    .play-img img {
+        width: 250px;
+    }
+
+    .play-img {
+        text-align: center;
+    }
+
+    nav,
+    .banner,
+    .gammer-box,
+    .video-sectiopn {
+        padding: 20px 0;
+        text-align: center;
+    }
+   
+
+    .mini-img img {
+        width: 120px;
+        position: relative;
+        top: -120px;
+        left: -60px;
+
+    }
+
+    .video-container {}
+
+    .play-box {
+        padding: 0;
+    }
 
 
 
     nav,
     .gammer-box,
-    .video-container {
+    .video-container,
+    .play-box {
         flex-direction: column;
     }
 
     .banner img {
         width: 100%;
     }
+    .video-box img{
+        width: 150px;
+    }
+
 
 }
 
@@ -267,11 +319,34 @@ p.bold-footer {
         gap: 20px;
     }
 
-    nav {
+    nav,
+    .gammer-box,
+    .video-container,
+    .play-box {
         flex-direction: column;
     }
 
     .banner img {
         width: 100%;
+    }
+    .gammer-img img {
+        width: 100%;
+    }
+    nav,
+    .banner,
+    .gammer-box,
+    .video-section, .gammer-content {
+        padding: 40px 0;
+        text-align: center;
+    }
+    .play-img img {
+        width: 350px;
+    }
+    .mini-img img {
+        width: 150px;
+        position: relative;
+        top: -120px;
+        left: -60px;
+
     }
 }
