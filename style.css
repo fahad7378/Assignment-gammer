@@ -345,7 +345,7 @@ nav li i {
 
 
 .logo-box{
-    padding:3px;
+  padding:1px;
     border:1px solid white;
 }
 .logo-box h4:hover{
@@ -356,7 +356,7 @@ nav li i {
     border-radius: 50px;
     background: #FFF;
     border:1px solid rgb(169, 187, 9);
-    padding:3px;
+    padding:1px;
 }
 
 .logo-area .logo-box h4 {
@@ -376,6 +376,8 @@ nav li i {
 
 .logo-box {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-box img{
@@ -528,10 +530,22 @@ p.bold-footer {
     .logo-colum-2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
+        gap: 20px;
         align-items: center;
 
     }
+    .logo-box{
+        
+    }
+    .logo-box{
+        padding:0;
+        border:0;
+      }
+      .logo-box:HOVER{
+        padding:0;
+        border:0;
+      }
+
 
     .logo-text {
         color: #0B0223;
@@ -554,7 +568,8 @@ p.bold-footer {
     }
 
     .carear-content {
-        text-align: center;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .item-2 {
@@ -586,6 +601,9 @@ p.bold-footer {
         padding: 0;
         gap: 20px 0;
     }
+    .video-box p{
+        text-align: center;
+    }
 
     .play-img {
         text-align: center;
@@ -611,7 +629,8 @@ p.bold-footer {
     .banner,
     .gammer-box,
     .video-section,
-    .gammer-content {
+    .gammer-content, .play-box, 
+    .carear-area, .logo-area, .video-sectiopn, footer {
         padding: 40px 0;
         text-align: center;
     }
@@ -622,12 +641,32 @@ p.bold-footer {
     }
 
     nav,
-    .gammer-box {
+    .gammer-box, .play-box, .carear-area {
         flex-direction: column;
+        text-align: center;
+    }
+    .play-box{
+        text-align: center;
+    }
+    .video-container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .video-box p{
+        text-align: center;
     }
 
     .play-img img {
         width: 250px;
+        text-align: center;
+    }
+    .mini-img img {
+        width: 40px;
+        position:static;
+        
+
+    }
+    .white-button{
         text-align: center;
     }
 
@@ -646,4 +685,22 @@ p.bold-footer {
         left: -40px;
 
     }
+    .carear-content {
+       width: 90%;
+       margin:0  auto;;
+    }
+    .list-content{
+        text-align: left;
+    }
+    .logo-colum-1, .logo-colum-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px;
+    }
+    .carear-img img{
+        width: 300px;
+        margin-top: 30px;
+    }
+
+   
 }
