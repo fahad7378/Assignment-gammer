@@ -6,7 +6,6 @@ body {
 
 
 }
-
 /* common */
 .btn-primary {
     padding: 15px 35px;
@@ -44,7 +43,7 @@ nav {
 
 .nav-title {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 700;
 
 }
@@ -56,6 +55,7 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 25px;
+
 }
 
 nav a {
@@ -69,10 +69,23 @@ nav a {
 #nav-url {
     border-radius: 8px;
     background: rgba(142, 137, 153, 0.1);
-    padding: 10px 35px;
-    margin-top: -10px;
+    padding: 10px 30px;
     
 }
+nav li i{
+    color:#FF42A5;
+    padding: 0 5px;;
+}
+.site-logo {
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.site-logo img {
+    height: 50px;
+    width:auto;
+}
+
 
 /* header */
 
@@ -82,34 +95,23 @@ nav a {
     display: flex;
     background: #FFF;
     padding: 30px 100px;
-    ;
     justify-content: space-between;
     gap: 150px;
-
-
-
 }
 
 .banner-content {
     margin-top: 60px;
-
-
 }
-
 .banner img {
     width: 600px;
-
 }
-
 .banner-title {
     color: #0B0223;
     font-size: 2.5rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 10px;
-    ;
 }
-
 .banner-sub {
     font-size: 4rem;
     font-weight: 800;
@@ -122,8 +124,6 @@ nav a {
     margin-bottom: 10px;
     ;
 }
-
-
 .banner-des {
     color: #534C64;
     font-size: 1.25rem;
@@ -140,9 +140,7 @@ nav a {
     padding-top: 140;
     padding-bottom: 140px;
 }
-
 .gammer-title {
-
     font-size: 2.5rem;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -151,24 +149,19 @@ nav a {
     -webkit-text-fill-color: transparent;
     margin-bottom: 15px;
 }
-
 .gammer-des {
     color: #534C64;
     font-weight: 400;
 }
-
 .gammer-content {
     text-align: right;
 }
-
 .gammer-img img {
     width: 650px;
     margin-top: 50px;
 }
 
-p.bold-footer {
-    margin-top: -10px;
-}
+
 
 .gammer-footer {
     color: #534C64;
@@ -176,18 +169,17 @@ p.bold-footer {
     font-weight: 500;
 }
 
-.bold-footer {
+/* .bold-footer {
     color: #534C64;
     font-size: 1.5rem;
     font-weight: 700;
-}
+} */
 
-/* video */
+/* video section */
 
 .video-sectiopn {
     padding: 10px 100px;
 }
-
 .video-span {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -196,7 +188,6 @@ p.bold-footer {
 
 
 }
-
 .video-title {
     color: #0B0223;
     text-align: center;
@@ -204,7 +195,6 @@ p.bold-footer {
     font-weight: 700;
     margin-bottom: 10px;
 }
-
 .video-des {
     color: #534C64;
     text-align: center;
@@ -213,55 +203,39 @@ p.bold-footer {
     margin-top: 10px;
     margin-bottom: 50px;
 }
-
 .video-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    display: grid;
+    gap:15px;
+    grid-template-columns: repeat(4, 1fr);
 
 }
-
 .video-container img {
-    width: 250px;
+    width: 280px;
 }
-
 .video-box p {
     color: #534C64;
     text-align: left;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
-
-
-.play-title {}
+/* play box */
 
 .play-box {
     display: flex;
     padding: 0px 100px;
-    gap: 50px;
+    gap: 40px;
 }
-
-.play-img img {
-    width: 500px;
-}
-
-.play-img {
-    margin-top: 100px;
-}
-
 .play-title {
     text-align: right;
     font-size: 2.5rem;
     font-weight: 700;
 }
-
 .play-content {
     max-width: 300px;
     margin: auto;
 
 }
-
 .play-des {
     color: #534C64;
     text-align: right;
@@ -270,6 +244,12 @@ p.bold-footer {
     margin-top: -20px;
 }
 
+.play-img img {
+    width: 500px;
+}
+.play-img {
+    margin-top: 60px;
+}
 .mini-img img {
     width: 180px;
     border-radius: 8px;
@@ -279,6 +259,7 @@ p.bold-footer {
     top: -120px;
     left: -60px;
 }
+/* carear area */
 
 .carear-area {
     padding: 40px 100px;
@@ -286,23 +267,27 @@ p.bold-footer {
     display: flex;
     justify-content: space-between;
 }
-
 .carear-des {
     color: #FFF;
     font-size: 1rem;
     font-weight: 400;
 }
-
 .carear-title {
     color: #FFF;
     font-size: 2.5rem;
     font-weight: 700;
 }
-
 .carear-content {
     width: 80%;
 }
+.list-content {
+    display: flex;
+    color: #FFF;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 30px;
 
+}
 .item {
     padding: 10px;
 }
@@ -310,32 +295,10 @@ p.bold-footer {
 .item-2 {
     padding-left: 60px;
 }
-
-.list-content {
-    margin-top: 30px;
-}
-
-
-
-
-
-.list-content {
-    display: flex;
-    color: #FFF;
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding-left:
-
-}
-
-.carear-2 {}
-
 .carear-img img {
     width: 600px;
 }
-
-
-.maron {
+.white-button {
 
     padding: 15px 35px;
     border-radius: 48px;
@@ -391,6 +354,9 @@ footer {
     color: white;
     margin-top: 10px;
 }
+p.bold-footer {
+    margin-top: -10px;
+}
 
 .footer-list a {
     text-decoration: none;
@@ -437,6 +403,29 @@ footer {
 
 
 @media screen and (max-width:576px) {
+    nav, nav >ul,
+    .gammer-box,
+    .play-box,
+    .carear-area {
+        flex-direction: column;
+    }
+    nav li{
+        margin-bottom: 20px;
+    }
+    nav,
+    .banner,
+     .gammer-box,
+    .video-sectiopn, 
+    .carear-area,
+    .logo-area,
+    footer {
+        padding: 30px 10px;
+        text-align: center;
+    }
+    #nav-url {
+        border-radius: 8px;
+        background: rgba(142, 137, 153, 0.1);
+    }
     .banner {
         flex-direction: column-reverse;
         gap: 20px;
@@ -454,37 +443,17 @@ footer {
         text-align: center;
     }
 
-    nav,
-    .banner,
-    .gammer-box,
-    .video-sectiopn,
-    .carear-area,
-    .logo-area,
-    footer {
-        padding: 30px 10px;
-        text-align: center;
-    }
-    #nav-url {
-        border-radius: 8px;
-        background: rgba(142, 137, 153, 0.1);
-        padding: 0;
-        margin:0;
-        
-    }
-
     .logo-area .logo-colum-1,
     .logo-colum-2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px
     }
-
     .logo-text {
         color: #0B0223;
         font-size: 1.25rem;
         font-weight: 600;
     }
-
     .carear-content {
         width: 100%;
         text-align: center;
@@ -503,8 +472,6 @@ footer {
         padding-left: 0;
     }
 
-
-
     .mini-img img {
         width: 40px;
         position: relative;
@@ -513,7 +480,15 @@ footer {
 
     }
 
-    .video-container {}
+    .video-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .video-container img {
+        width: 220px;
+    }
+    .video-box, .video-box {
+        text-align: center;
+    }
 
     .play-box {
         padding: 0;
@@ -528,19 +503,9 @@ footer {
         width: 300px;
     }
 
+    
 
-
-    nav,
-    .gammer-box,
-    .video-container,
-    .play-box,
-    .carear-area {
-        flex-direction: column;
-    }
-
-
-
-    .video-box p {
+  .video-box p {
         text-align: center;
     }
 
@@ -548,39 +513,9 @@ footer {
     .play-des {
         text-align: center;
     }
-
-
-
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .banner {
-        flex-direction: column-reverse;
-        gap: 20px;
-    }
-
-    nav,
-    .gammer-box,
-    .video-container,
-    .play-box {
-        flex-direction: column;
-    }
-
-    .play-img img {
-        width: 250px;
-        text-align: center;
-    }
-
-
-
-    .banner img {
-        width: 100%;
-    }
-
-    .gammer-img img {
-        width: 100%;
-    }
-
     nav,
     .banner,
     .gammer-box,
@@ -590,6 +525,27 @@ footer {
         text-align: center;
     }
 
+    .banner {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    nav,
+    .gammer-box {
+        flex-direction: column;
+    }
+
+    .play-img img {
+        width: 250px;
+        text-align: center;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .gammer-img img {
+        width: 100%;
+    }
     .mini-img img {
         width: 120px;
         position: relative;
