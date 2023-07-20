@@ -528,13 +528,19 @@ p.bold-footer {
     .logo-colum-2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px
+        gap: 40px;
+        align-items: center;
+
     }
 
     .logo-text {
         color: #0B0223;
         font-size: 1.25rem;
         font-weight: 600;
+    }
+    .logo-box img{
+        width: 40px;
+        height: 40px;
     }
 
     .carear-content {
